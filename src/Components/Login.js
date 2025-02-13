@@ -88,7 +88,7 @@ function Login() {
                     <label htmlFor="terms">Remember me</label>
                   </div>
                   <div>
-                    <a href="#">Forgot Password?</a>
+                    <Link to='/somewhere'>Forgot Password?</Link>
                   </div>
                 </div>
                 <button type="submit" className="login-button">

@@ -98,12 +98,12 @@ const navigate = useNavigate()
                     </div>
               </div>
               <div className='home-img-con'>
-                <img className='homeimage' src={img1}/>
+                <img className='homeimage' src={img1} alt='homeimage'/>
               </div>
             </div>
             <div className='intro'>
                   <div className='card-img'>
-                    <img className='img2' src={img2} />
+                    <img className='img2' src={img2} alt='property' />
                     <div className='intro-content'>
                         <h2>The new way to find your new home</h2>
                         <p>Find your dream place to live in with more than 10k+ properties listed.</p>
@@ -113,12 +113,12 @@ const navigate = useNavigate()
                   <div className='benefits'>
                      <div className='benefits-row'>
                          <div className='row-benefits'>
-                            <img className='icons' src={icon4}/>
+                            <img className='icons' src={icon4} alt='iconic'/>
                             <h3>Property Insurance</h3>
                             <p>We offer our customer property protection of liability coverage and insurance for their better life.</p>
                          </div>
                          <div className='row-benefits'>
-                         <img className='icons' src={icon1}/>
+                         <img className='icons' src={icon1} alt='iconics'/>
 
                          <h3>Best Price</h3>
                          <p>Not sure what  you should be charging for your property? No need to worry, let us do the numbers for you.</p>
@@ -126,12 +126,12 @@ const navigate = useNavigate()
                      </div>
                      <div className='benefits-row'>
                      <div className='row-benefits'> 
-                     <img className='icons' src={icon2}/>
+                     <img className='icons' src={icon2} alt='iconesia'/>
 
                         <h3>Lowest Commission</h3>
                         <p>You no longer have to negotiate commissions and haggle with other agents it only cost 2%!</p></div>
                      <div className='row-benefits'> 
-                     <img className='icons' src={icon3}/>
+                     <img className='icons' src={icon3} alt='icu'/>
 
                         <h3>Overall Control</h3>
                         <p>Get a virtual tour, and schedule visits before you rent or buy any properties. You get overall control.</p></div>
