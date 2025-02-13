@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0049562a.css",
+    "main.js": "/static/js/main.99e02fc0.js",
+    "static/js/488.e6353974.chunk.js": "/static/js/488.e6353974.chunk.js",
+    "static/media/homeimage-1.jpeg": "/static/media/homeimage-1.ad1eb9537f1e9344c76d.jpeg",
+    "static/media/Image (1).png": "/static/media/Image (1).73a7270d79af3c576666.png",
+    "static/media/sellerhomeimg.png": "/static/media/sellerhomeimg.24df3a0dd2f9c10634e7.png",
+    "static/media/loginimage.png": "/static/media/loginimage.681e9b0f719d6c38311b.png",
+    "static/media/phone_image_placeholder.png": "/static/media/phone_image_placeholder.7965ef8c285634af3efd.png",
+    "static/media/Illustration.png": "/static/media/Illustration.2b87dc53f3b795302ec0.png",
+    "index.html": "/index.html",
+    "main.0049562a.css.map": "/static/css/main.0049562a.css.map",
+    "main.99e02fc0.js.map": "/static/js/main.99e02fc0.js.map",
+    "488.e6353974.chunk.js.map": "/static/js/488.e6353974.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0049562a.css",
+    "static/js/main.99e02fc0.js"
+  ]
+}
