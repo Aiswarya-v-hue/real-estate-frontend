@@ -98,12 +98,12 @@ const navigate = useNavigate()
                     </div>
               </div>
               <div className='home-img-con'>
-                <img className='homeimage' src={img1} alt='homeimage'/>
+                <img className='homeimage' src={img1} alt=""/>
               </div>
             </div>
             <div className='intro'>
                   <div className='card-img'>
-                    <img className='img2' src={img2} alt='property' />
+                    <img className='img2' src={img2} alt="" />
                     <div className='intro-content'>
                         <h2>The new way to find your new home</h2>
                         <p>Find your dream place to live in with more than 10k+ properties listed.</p>
