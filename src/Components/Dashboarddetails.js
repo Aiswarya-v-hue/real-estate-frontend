@@ -52,15 +52,14 @@ function Dashboarddetails() {
                   {obj.images.map((image, index) => (
                     <Carousel.Item key={index} className="design">
                       <img
-  className="img"
-  src={`https://real-estate-backend-awzg.onrender.com${image.startsWith("/") ? image : "/" + image}`}
-  alt={`Property-image ${index + 1}`}
-  onError={(e) => {
-    console.error("Image failed to load:", e.target.src);
-    e.target.style.display = "none"; // Hide broken images
-  }}
-/>
-
+                        className="img"
+                        src={`https://real-estate-backend-awzg.onrender.com${image}`}
+                        alt={`Property-image ${index + 1}`}
+                        onError={(e) => {
+                          console.error("Image failed to load:", e.target.src);
+                          e.target.style.display = "none"; // Hide broken images
+                        }}
+                      />
                     </Carousel.Item>
                   ))}
                 </Carousel>

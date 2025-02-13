@@ -59,7 +59,7 @@ function Dashcomp() {
                   matchedProduct.images.map((image, index) => (
                     <img
                       key={index}
-                      src={`https://real-estate-backend-awzg.onrender.com/uploads/${image}`}
+                      src={`https://real-estate-backend-awzg.onrender.com${image}`}
                       alt={`Property ${index + 1}`}
                       width="400px"
                       height="300px"
