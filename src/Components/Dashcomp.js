@@ -8,7 +8,7 @@ function Dashcomp() {
   // Memoize the fetchProductDetails function
   const fetchProductDetails = useCallback(async () => {
     try {
-      const res = await axios.get("http://localhost:3000/api/getall");
+      const res = await axios.get("https://real-estate-backend-awzg.onrender.com/api/getall");
       setProducts(res.data.data);
       
     } catch (error) {
@@ -19,7 +19,7 @@ function Dashcomp() {
   // Fetch Buyer Details
   async function fetchBuyerDetails() {
     try {
-      const res = await axios.get("http://localhost:3000/api/buyer/getall");
+      const res = await axios.get("https://real-estate-backend-awzg.onrender.com/api/buyer/getall");
       setBuyerdetails(res.data.data);
     } catch (error) {
       console.error("Error fetching buyer details:", error);
@@ -59,7 +59,7 @@ function Dashcomp() {
                   matchedProduct.images.map((image, index) => (
                     <img
                       key={index}
-                      src={`http://localhost:3000${image}`}
+                      src={`https://real-estate-backend-awzg.onrender.com/uploads/${image}`}
                       alt={`Property ${index + 1}`}
                       width="400px"
                       height="300px"
