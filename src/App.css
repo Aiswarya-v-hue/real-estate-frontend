@@ -1,0 +1,115 @@
+
+/* Broker Login Form */
+.brologcss {
+  height: auto;
+  width: 500px;
+  max-width: 100%;
+  justify-items: center;
+  margin: 50px auto;
+  border: 1px solid #E0DEF7;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #E0DEF7;
+}
+
+/* Button Styling */
+.brobutt {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* Form Container */
+.broform {
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+  min-height: 250px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+
+/* Image Styling */
+.image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  background-size: cover;
+  padding-top: 50px;
+}
+
+/* Form Layout */
+.designform {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px;
+  background-color: #E0DEF7;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive Design */
+
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .brologcss {
+      width: 80%;
+  }
+
+  .designform {
+      padding: 50px;
+      flex-direction: column;
+  }
+
+  .image {
+      max-width: 500px;
+  }
+}
+
+/* Mobile Devices (max-width: 768px) */
+@media (max-width: 768px) {
+  .brologcss {
+      width: 90%;
+      padding: 15px;
+  }
+
+  .broform {
+      width: 90%;
+      padding: 15px;
+  }
+
+  .designform {
+      padding: 30px;
+      flex-direction: column;
+  }
+
+  .image {
+      max-width: 100%;
+  }
+}
+
+/* Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+  .brologcss {
+      width: 95%;
+      padding: 10px;
+  }
+
+  .broform {
+      width: 100%;
+      padding: 10px;
+  }
+
+  .designform {
+      padding: 20px;
+  }
+
+  .image {
+      max-width: 100%;
+  }
+}
+
+

@@ -1,0 +1,195 @@
+
+/* Responsive Form */
+.formis {
+  height: auto;
+  width: 600px;
+  max-width: 100%;
+  padding: 20px;
+  justify-items: center;
+  background-color: #E0DEF7;
+  margin: 0 auto;
+}
+
+/* Background container */
+.formbackcol {
+  background-color: #E0DEF7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Inner form styling */
+.innerform {
+  padding: 40px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+
+/* Section with a border */
+.arrangehomes {
+  height: auto;
+  min-height: 600px;
+  border: 1px solid black;
+}
+
+/* Box styling */
+.divicolor {
+  background-color: #FFFFFF;
+  width: 100%;
+  max-width: 279px;
+  height: 80px;
+  border-radius: 8px 0px 0px 0px;
+  border: 1.5px solid #E0DEF7;
+}
+
+/* Home Container */
+.home-container {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Home Image */
+.home-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+/* Overlay Box */
+.overlay-box {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  padding: 15px 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 80%;
+  border: 1.5px solid #E0DEF7;
+}
+
+/* Text Styling */
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Button Styling */
+button {
+  transition: all 0.3s ease-in-out;
+  padding: 15px;
+  border: none;
+  border-radius: 12.5px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* Active Tab */
+.bg-indigo-600 {
+  background-color: #4f46e5 !important;
+}
+
+.text-indigo-600 {
+  color: #4f46e5 !important;
+}
+
+button:hover {
+  filter: brightness(90%);
+}
+
+/* Arrangement */
+.arrange {
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Button Design */
+.buttdesign {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 30px;
+  background-color: #EFEFFB4D;
+}
+
+/* RESPONSIVE DESIGN */
+
+/* Large Tablets (1024px and below) */
+@media (max-width: 1024px) {
+  .formis {
+      width: 90%;
+      margin: 0 auto;
+  }
+
+  .formbackcol {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .arrangehomes {
+      min-height: 500px;
+  }
+}
+
+/* Mobile (768px and below) */
+@media (max-width: 768px) {
+  .formis {
+      width: 100%;
+      padding: 15px;
+  }
+
+  .innerform {
+      padding: 20px;
+  }
+
+  .home-container {
+      max-width: 100%;
+  }
+
+  .home-image {
+      width: 100%;
+  }
+
+  .overlay-box {
+      width: 90%;
+      bottom: 10px;
+  }
+
+  .arrangehomes {
+      min-height: 400px;
+  }
+}
+
+/* Small Mobile Devices (480px and below) */
+@media (max-width: 480px) {
+  .formis {
+      width: 100%;
+      padding: 10px;
+  }
+
+  .overlay-box {
+      width: 95%;
+      padding: 10px;
+  }
+
+  .title {
+      font-size: 16px;
+  }
+
+  .subtitle {
+      font-size: 12px;
+  }
+}

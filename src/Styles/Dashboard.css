@@ -1,0 +1,66 @@
+/* /* Card Grid Layout */
+.carddesign {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 15px;
+   padding: 20px;
+}
+
+/* Buyer Details Styling */
+.dashcomp .buyerdet {
+   color: black;
+   margin-left: 700px;
+}
+
+/* Image Styling */
+.design .img {
+   width: 100% !important;
+   height: 300px;
+   object-fit: cover;
+   border-radius: 8px;
+}
+
+/* Responsive Design */
+
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+   .carddesign {
+       grid-template-columns: repeat(3, 1fr);
+   }
+
+   .dashcomp .buyerdet {
+       margin-left: 400px;
+   }
+}
+
+/* Mobile Devices (max-width: 768px) */
+@media (max-width: 768px) {
+   .carddesign {
+       grid-template-columns: repeat(2, 1fr);
+   }
+
+   .dashcomp .buyerdet {
+       margin-left: 200px;
+       text-align: center;
+   }
+
+   .design .img {
+       height: 250px;
+   }
+}
+
+/* Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+   .carddesign {
+       grid-template-columns: 1fr;
+   }
+
+   .dashcomp .buyerdet {
+       margin-left: 0;
+       text-align: center;
+   }
+
+   .design .img {
+       height: 200px;
+   }
+}

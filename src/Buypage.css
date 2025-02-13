@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.buypage {
+    padding: 0px 150px;
+}
+
+/* Centering the heading */
+.buypage-head {
+    display: grid;
+    justify-self: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.buypage-head h1 {
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.buypage-head p {
+    margin-left: 40px;
+}
+
+/* Search and tab bar section */
+.tabSearch-bar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Browsw-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.Browsw-btn button {
+    padding: 10px 20px;
+    background-color: #6C5DD3;
+    border: 1px solid #6C5DD3;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Tab Bar */
+.tab-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #F0EFFB;
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid #E0E7F7;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+.tab-bar button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 5px 15px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #6C5DD3;
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.tab-bar button:hover {
+    background-color: white;
+}  
+
+.tab-bar button:focus {
+    background-color: white;
+    box-shadow: 0px 0px 0px 2px #E0E7F7;
+}
+
+/* Search Bar */
+.search-bar {
+    background-color: #F0EFFB;
+    padding: 8px 42px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid #E0E7F7;
+    width: 350px;
+    height: 49px;
+}
+
+.search-bar:focus {
+    outline: none;
+    border: 2px solid #E0E7F7;
+}
+
+.search-icon {
+    width: 26px;
+    height: 26px;
+    position: relative;
+    bottom: -7px;
+    left: 40px;
+}
+
+/* View Details Button */
+.view-detail-btn {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    color: #fff;
+    background-color: hsl(223, 67%, 55%);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.view-detail-btn:hover {
+    background-color: #4d0efa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Product Grid */
+.buysetion {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 40px 100px;
+    gap: 20px;
+}
+
+.img {
+    width: 100% !important;
+    height: 200px;
+}
+
+/* Text Styles */
+span {
+    font-size: larger;
+    color: #7065F0;
+}
+
+.designtext {
+    color: #000929;
+    font-size: larger;
+}
+
+.oneproduct {
+    width: 500px;
+    height: auto;
+}
+
+/* Responsive Design */
+
+/* Large Tablets (1024px and below) */
+@media (max-width: 1024px) {
+    .buypage {
+        padding: 0px 50px;
+    }
+
+    .buypage-head {
+        text-align: center;
+    }
+
+    .tabSearch-bar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tab-bar {
+        justify-content: center;
+    }
+
+    .search-bar {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .buysetion {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 40px 50px;
+    }
+}
+
+/* Mobile (768px and below) */
+@media (max-width: 768px) {
+    .buypage {
+        padding: 0px 20px;
+    }
+
+    .buypage-head h1 {
+        font-size: 32px;
+    }
+
+    .buypage-head p {
+        margin-left: 0;
+    }
+
+    .tabSearch-bar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .tab-bar {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .search-bar {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .buysetion {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .oneproduct {
+        width: 100%;
+    }
+}
+
+/* Small Mobile Devices (480px and below) */
+@media (max-width: 480px) {
+    .buypage-head h1 {
+        font-size: 28px;
+    }
+
+    .search-bar {
+        width: 100%;
+        padding: 8px 20px;
+    }
+
+    .search-icon {
+        left: 20px;
+    }
+
+    .buysetion {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+}
+
+
+
