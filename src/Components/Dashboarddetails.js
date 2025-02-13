@@ -53,7 +53,7 @@ function Dashboarddetails() {
                     <Carousel.Item key={index} className="design">
                       <img
                         className="img"
-                        src={`https://real-estate-backend-awzg.onrender.com${image}`}
+                        src={`https://real-estate-backend-awzg.onrender.com/uploads/${image}`}
                         alt={`Property-image ${index + 1}`}
                         onError={(e) => {
                           console.error("Image failed to load:", e.target.src);
