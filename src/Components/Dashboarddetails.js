@@ -9,7 +9,7 @@ function Dashboarddetails() {
   const [apiinput, setApiInput] = useState([]);
 
   function fetchApi() {
-    axios.get("http://localhost:3000/api/getall").then((response) => {
+    axios.get("https://real-estate-backend-awzg.onrender.com/api/getall").then((response) => {
       console.log(response.data.data);
       setApiInput(response.data.data);
     });
@@ -21,7 +21,7 @@ function Dashboarddetails() {
 
   async function deleteitems(id) {
     try {
-      await axios.delete(`http://localhost:3000/api/remove/${id}`);
+      await axios.delete(`https://real-estate-backend-awzg.onrender.com/api/remove/${id}`);
       alert("Record deleted successfully");
     } catch (error) {
       alert("Record unable to delete", error);
@@ -53,7 +53,7 @@ function Dashboarddetails() {
                     <Carousel.Item key={index} className="design">
                       <img
                         className="img"
-                        src={`http://localhost:3000${image}`}
+                        src={`https://real-estate-backend-awzg.onrender.com${image}`}
                         alt={`Property-image ${index + 1}`}
                         onError={(e) => {
                           console.error("Image failed to load:", e.target.src);
